@@ -1,0 +1,31 @@
+v 4
+file . "xnorgate_tb.vhdl" "332b854c92954ec819efba2d7ccbd4ecc3f9696a" "20260501023336.103":
+  entity xnorgate_tb at 1( 0) + 0 on 29;
+  architecture test of xnorgate_tb at 9( 202) + 0 on 30;
+file . "xorgate_tb.vhdl" "3945f82918f4e5986daf4dcda498fe23ee74a244" "20260501023257.429":
+  entity xorgate_tb at 1( 0) + 0 on 25;
+  architecture test of xorgate_tb at 9( 199) + 0 on 26;
+file . "norgate_tb.vhdl" "5dcfc1868de49eb95a07f9e2a41341c04c32e572" "20260501023212.707":
+  entity norgate_tb at 1( 0) + 0 on 21;
+  architecture test of norgate_tb at 9( 199) + 0 on 22;
+file . "nandgate_tb.vhdl" "cc04e72fce523349c04941d42d1cd1cabdbe0b30" "20260501023058.542":
+  entity nandgate_tb at 1( 0) + 0 on 17;
+  architecture test of nandgate_tb at 9( 202) + 0 on 18;
+file . "orgate_tb.vhdl" "1476279de06832610ae8c99e08ce65e597658dee" "20260501022915.576":
+  entity orgate_tb at 1( 0) + 0 on 13;
+  architecture test of orgate_tb at 9( 196) + 0 on 14;
+file . "orgate.vhdl" "a9e565b2f6d1f518390d1af1a1f791b592483430" "20260501022915.499":
+  entity orgate at 11( 533) + 0 on 11;
+  architecture rtl of orgate at 45( 1874) + 0 on 12;
+file . "nandgate.vhdl" "fada6efd0f46dea230cd4855feb326bd55dc5d4a" "20260501023058.465":
+  entity nandgate at 11( 533) + 0 on 15;
+  architecture rtl of nandgate at 45( 1888) + 0 on 16;
+file . "norgate.vhdl" "1f139f6a2e36ef5125c9e22e5f16dcac322d1fa1" "20260501023212.630":
+  entity norgate at 11( 533) + 0 on 19;
+  architecture rtl of norgate at 45( 1881) + 0 on 20;
+file . "xorgate.vhdl" "80d6e411674e458702d9e06d5dd52b5683bc15bb" "20260501023257.352":
+  entity xorgate at 11( 533) + 0 on 23;
+  architecture rtl of xorgate at 45( 1881) + 0 on 24;
+file . "xnorgate.vhdl" "5e931109f19038219c7a78f924fb62bfefaa33be" "20260501023336.026":
+  entity xnorgate at 11( 533) + 0 on 27;
+  architecture rtl of xnorgate at 45( 1888) + 0 on 28;

@@ -1,0 +1,79 @@
+$date
+  Fri May  1 01:11:55 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module signals_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # c $end
+$upscope $end
+$enddefinitions $end
+#0
+X!
+W"
+U#
+#10000000
+X#
+#30000000
+0!
+1"
+#40000000
+0#
+#50000000
+1#
+#60000000
+L"
+#70000000
+0#
+#90000000
+1!
+H"
+#100000000
+1#
+#120000000
+0!
+Z"
+#130000000
+0#
+#140000000
+X#
+#150000000
+1!
+#170000000
+1#
+#180000000
+0!
+W"
+#190000000
+0#
+#200000000
+X#
+#210000000
+1!
+X"
+#230000000
+1#
+#240000000
+W!
+L"
+#250000000
+0#
+#260000000
+X#
+#270000000
+H!
+X"
+#290000000
+1#
+#300000000
+1!
+1"
