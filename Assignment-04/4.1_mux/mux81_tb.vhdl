@@ -1,0 +1,54 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux81_tb is
+end mux81_tb;
+
+architecture testbench of mux81_tb is
+  component mux81
+    port (     i0_81 : in std_logic_vector(2 downto 0);
+      i1_81 : in std_logic_vector(2 downto 0);
+      i2_81 : in std_logic_vector(2 downto 0);
+      i3_81 : in std_logic_vector(2 downto 0);
+      i4_81 : in std_logic_vector(2 downto 0);
+      i5_81 : in std_logic_vector(2 downto 0);
+      i6_81 : in std_logic_vector(2 downto 0);
+      i7_81 : in std_logic_vector(2 downto 0);
+      sel_81 : in std_logic_vector(2 downto 0);
+      y_81 : out std_logic_vector(2 downto 0));
+  end component;
+
+--missing (Signale)
+
+signal i0_81, i1_81, i2_81, i3_81, i4_81, i5_81, i6_81, i7_81 : std_logic_vector(2 downto 0);
+signal sel_81 : std_logic_vector(2 downto 0);
+signal y_81 : std_logic_vector(2 downto 0);
+
+begin
+    multiplex: mux81 port map(i0_81 => i0_81, i1_81 => i1_81, i2_81 => i2_81, i3_81 => i3_81, i4_81 => i4_81, i5_81 => i5_81, i6_81 => i6_81, i7_81 => i7_81, sel_81 => sel_81, y_81 => y_81);
+
+
+
+    -- 
+    process begin
+    -- Die vorgegebenen Werte werden an die Eingaenge des 8:1 Mux angelegt
+        i0_81 <= "000";
+        i1_81 <= "001";
+        i2_81 <= "010";
+        i3_81 <= "011";
+        i4_81 <= "100";
+        i5_81 <= "101";
+        i6_81 <= "110";
+        i7_81 <= "111";
+        sel_81 <= "000"; wait for 10 ns;
+        sel_81 <= "001"; wait for 10 ns;
+        sel_81 <= "010"; wait for 10 ns;
+        sel_81 <= "011"; wait for 10 ns;
+        sel_81 <= "100"; wait for 10 ns;
+        sel_81 <= "101"; wait for 10 ns;
+        sel_81 <= "110"; wait for 10 ns;
+        sel_81 <= "111"; wait for 10 ns;
+        assert false report "End of test";
+        wait;
+    end process;
+end testbench;

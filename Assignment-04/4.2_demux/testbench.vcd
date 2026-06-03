@@ -1,0 +1,310 @@
+$date
+  Fri May 15 08:06:09 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module demux14_tb $end
+$var reg 3 ! i_n[2:0] $end
+$var reg 2 " sel[1:0] $end
+$var reg 3 # y0[2:0] $end
+$var reg 3 $ y1[2:0] $end
+$var reg 3 % y2[2:0] $end
+$var reg 3 & y3[2:0] $end
+$scope module demux_inst $end
+$var reg 3 ' i_n[2:0] $end
+$var reg 2 ( sel[1:0] $end
+$var reg 3 ) y0[2:0] $end
+$var reg 3 * y1[2:0] $end
+$var reg 3 + y2[2:0] $end
+$var reg 3 , y3[2:0] $end
+$var reg 2 - not_sel[1:0] $end
+$scope module y0_assignment(0) $end
+$scope module y0_gate $end
+$var reg 1 . input1 $end
+$var reg 1 / input2 $end
+$var reg 1 0 input3 $end
+$var reg 1 1 and_output $end
+$var reg 1 2 andgate $end
+$upscope $end
+$upscope $end
+$scope module y0_assignment(1) $end
+$scope module y0_gate $end
+$var reg 1 3 input1 $end
+$var reg 1 4 input2 $end
+$var reg 1 5 input3 $end
+$var reg 1 6 and_output $end
+$var reg 1 7 andgate $end
+$upscope $end
+$upscope $end
+$scope module y0_assignment(2) $end
+$scope module y0_gate $end
+$var reg 1 8 input1 $end
+$var reg 1 9 input2 $end
+$var reg 1 : input3 $end
+$var reg 1 ; and_output $end
+$var reg 1 < andgate $end
+$upscope $end
+$upscope $end
+$scope module y1_assignment(0) $end
+$scope module y1_gate $end
+$var reg 1 = input1 $end
+$var reg 1 > input2 $end
+$var reg 1 ? input3 $end
+$var reg 1 @ and_output $end
+$var reg 1 A andgate $end
+$upscope $end
+$upscope $end
+$scope module y1_assignment(1) $end
+$scope module y1_gate $end
+$var reg 1 B input1 $end
+$var reg 1 C input2 $end
+$var reg 1 D input3 $end
+$var reg 1 E and_output $end
+$var reg 1 F andgate $end
+$upscope $end
+$upscope $end
+$scope module y1_assignment(2) $end
+$scope module y1_gate $end
+$var reg 1 G input1 $end
+$var reg 1 H input2 $end
+$var reg 1 I input3 $end
+$var reg 1 J and_output $end
+$var reg 1 K andgate $end
+$upscope $end
+$upscope $end
+$scope module y2_assignment(0) $end
+$scope module y2_gate $end
+$var reg 1 L input1 $end
+$var reg 1 M input2 $end
+$var reg 1 N input3 $end
+$var reg 1 O and_output $end
+$var reg 1 P andgate $end
+$upscope $end
+$upscope $end
+$scope module y2_assignment(1) $end
+$scope module y2_gate $end
+$var reg 1 Q input1 $end
+$var reg 1 R input2 $end
+$var reg 1 S input3 $end
+$var reg 1 T and_output $end
+$var reg 1 U andgate $end
+$upscope $end
+$upscope $end
+$scope module y2_assignment(2) $end
+$scope module y2_gate $end
+$var reg 1 V input1 $end
+$var reg 1 W input2 $end
+$var reg 1 X input3 $end
+$var reg 1 Y and_output $end
+$var reg 1 Z andgate $end
+$upscope $end
+$upscope $end
+$scope module y3_assignment(0) $end
+$scope module y3_gate $end
+$var reg 1 [ input1 $end
+$var reg 1 \ input2 $end
+$var reg 1 ] input3 $end
+$var reg 1 ^ and_output $end
+$var reg 1 _ andgate $end
+$upscope $end
+$upscope $end
+$scope module y3_assignment(1) $end
+$scope module y3_gate $end
+$var reg 1 ` input1 $end
+$var reg 1 a input2 $end
+$var reg 1 b input3 $end
+$var reg 1 c and_output $end
+$var reg 1 d andgate $end
+$upscope $end
+$upscope $end
+$scope module y3_assignment(2) $end
+$scope module y3_gate $end
+$var reg 1 e input1 $end
+$var reg 1 f input2 $end
+$var reg 1 g input3 $end
+$var reg 1 h and_output $end
+$var reg 1 i andgate $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b101 !
+b00 "
+b101 #
+b000 $
+b000 %
+b000 &
+b101 '
+b00 (
+b101 )
+b000 *
+b000 +
+b000 ,
+b11 -
+1.
+1/
+10
+11
+12
+03
+14
+15
+06
+07
+18
+19
+1:
+1;
+1<
+1=
+1>
+0?
+0@
+0A
+0B
+1C
+0D
+0E
+0F
+1G
+1H
+0I
+0J
+0K
+1L
+0M
+1N
+0O
+0P
+0Q
+0R
+1S
+0T
+0U
+1V
+0W
+1X
+0Y
+0Z
+1[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+1e
+0f
+0g
+0h
+0i
+#10000000
+b01 "
+b000 #
+b101 $
+b01 (
+b000 )
+b101 *
+b10 -
+00
+01
+02
+05
+0:
+0;
+0<
+1?
+1@
+1A
+1D
+1I
+1J
+1K
+0N
+0S
+0X
+1]
+1b
+1g
+#20000000
+b10 "
+b000 $
+b101 %
+b10 (
+b000 *
+b101 +
+b01 -
+0/
+10
+04
+15
+09
+1:
+0>
+0?
+0@
+0A
+0C
+0D
+0H
+0I
+0J
+0K
+1M
+1N
+1O
+1P
+1R
+1S
+1W
+1X
+1Y
+1Z
+1\
+0]
+1a
+0b
+1f
+0g
+#30000000
+b11 "
+b000 %
+b101 &
+b11 (
+b000 +
+b101 ,
+b00 -
+00
+05
+0:
+1?
+1D
+1I
+0N
+0O
+0P
+0S
+0X
+0Y
+0Z
+1]
+1^
+1_
+1b
+1g
+1h
+1i
+#40000000

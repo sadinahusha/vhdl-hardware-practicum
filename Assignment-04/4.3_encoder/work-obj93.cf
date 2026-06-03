@@ -1,0 +1,7 @@
+v 4
+file . "encoder42_tb.vhdl" "222eae1a112d56b86a955d43c3e5d2725d2d6db6" "20260515060620.639":
+  entity encoder42_tb at 1( 0) + 0 on 17;
+  architecture testbench of encoder42_tb at 7( 92) + 0 on 18;
+file . "encoder42.vhdl" "6812fc49c51825742ae8fe8cb2b2130c1837767c" "20260515060620.534":
+  entity encoder42 at 1( 0) + 0 on 15;
+  architecture rtl of encoder42 at 14( 368) + 0 on 16;
