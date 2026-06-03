@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity fa_tb is
+end fa_tb;
+
+architecture test of fa_tb is
+  component fa
+    port (
+      a : in std_logic;
+      b : in std_logic;
+      cin : in std_logic;
+      cout : out std_logic;
+      s : out std_logic
+    );
+  end component;
+
+signal a, b, cin, cout, s : std_ulogic;
+begin
+  -- DEFINE PORTMAP 
+  -- Portmap definieren
+  full_adder: fa port map(a => a, b => b, cin => cin, cout => cout, s => s);
+
+  process begin
+    a <= '0'; b <= '0'; cin <= '0'; wait for 10 ns;
+    a <= '0'; b <= '0'; cin <= '1'; wait for 10 ns;
+    a <= '0'; b <= '1'; cin <= '0'; wait for 10 ns;
+    a <= '0'; b <= '1'; cin <= '1'; wait for 10 ns;
+    a <= '1'; b <= '0'; cin <= '0'; wait for 10 ns;
+    a <= '1'; b <= '0'; cin <= '1'; wait for 10 ns;
+    a <= '1'; b <= '1'; cin <= '0'; wait for 10 ns;
+    a <= '1'; b <= '1'; cin <= '1'; wait for 10 ns;
+    assert false report "End of test";
+    wait;
+  end process;
+end test;

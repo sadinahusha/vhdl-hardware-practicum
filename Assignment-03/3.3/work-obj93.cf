@@ -1,0 +1,19 @@
+v 4
+file . "cla_tb.vhdl" "00933f4352c3912d70356f117631b046051eb4e7" "20260508015609.500":
+  entity cla_tb at 1( 0) + 0 on 25;
+  architecture test of cla_tb at 7( 80) + 0 on 26;
+file . "clag_tb.vhdl" "033503125bb6a293d0d62ba596142903ffc03427" "20260508014409.011":
+  entity clag_tb at 1( 0) + 0 on 17;
+  architecture test of clag_tb at 5( 78) + 0 on 18;
+file . "facla_tb.vhdl" "ca589ecc4a0e0a7d83e8d1748cf0d46e2403d0b7" "20260508013314.097":
+  entity facla_tb at 1( 0) + 0 on 13;
+  architecture test of facla_tb at 7( 84) + 0 on 14;
+file . "facla.vhdl" "a406676e82cfe2c4aff969cbd300f4aa1ff3b353" "20260508015609.228":
+  entity facla at 1( 0) + 0 on 19;
+  architecture rtl of facla at 15( 238) + 0 on 20;
+file . "clag.vhdl" "c61d86bb35652f3408c70e7bd97139fdeeef2327" "20260508015609.314":
+  entity clag at 1( 0) + 0 on 21;
+  architecture rtl of clag at 15( 304) + 0 on 22;
+file . "cla.vhdl" "2ce5e28317da3868943c4648e323f000376226fe" "20260508015609.407":
+  entity cla at 1( 0) + 0 on 23;
+  architecture rtl of cla at 17( 556) + 0 on 24;
